@@ -1,4 +1,5 @@
-# Prerequisites
+build/
+.DS_Store# Prerequisites
 *.d
 
 # Compiled Object files

@@ -1,0 +1,16 @@
+theme: jekyll-theme-cayman
+title: Cratchit
+description: A Swedish C++ accounting SIE file based application
+url: https://kjelloh.github.io
+baseurl: /cratchit
+repository: kjelloh/cratchit
+
+defaults:
+  - scope:
+      path: "issues"
+    values:
+      render_with_liquid: false
+  - scope:
+      path: "docs/thinking"
+    values:
+      render_with_liquid: false

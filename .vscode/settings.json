@@ -1,0 +1,17 @@
+{
+  "files.autoSave": "afterDelay",
+  "editor.defaultFormatter": null,
+  "C_Cpp.clang_format_style": "Visual Studio",
+  "C_Cpp.formatting": "vcFormat",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.block": "sameLine",
+  "C_Cpp.clang_format_fallbackStyle": "none",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.function": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.lambda": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.namespace": "sameLine",
+  "C_Cpp.vcFormat.newLine.beforeOpenBrace.type": "sameLine",
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyFunction": true,
+  "C_Cpp.vcFormat.newLine.closeBraceSameLine.emptyType": true,
+  "files.autoSaveDelay": 3000,
+  "editor.tabSize": 2,
+  "editor.detectIndentation": false
+}
