@@ -1,5 +1,7 @@
 # Thinking about this project, its progress and its goals.
 
+* [chimes](../chime/index.md)
+
 I find that wrinting down my thinking helps me staying focused, constratined and finding ways formward to solutions and answers.
 
 ## 20260821
@@ -44,5 +46,5 @@ So I actually used coPilot to inject content to the scaffolding I created ,manua
   * I interrogated coPiot about cmake semantics and edited the CMakeLists.txt
 
   ```sh
-  
+
   ```
