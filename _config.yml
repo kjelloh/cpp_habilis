@@ -1,9 +1,4 @@
 theme: jekyll-theme-cayman
-title: C++ Habilis
-description: The able cpp. The 'tool using' C++. A basis for a CLI tool that composes existing tools into tooling for C++ development.
-url: https://kjelloh.github.io
-baseurl: /cpp_habilis
-repository: kjelloh/cpp_habilis
 
 defaults:
   - scope:
