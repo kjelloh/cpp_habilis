@@ -1,16 +1,12 @@
 theme: jekyll-theme-cayman
-title: Cratchit
-description: A Swedish C++ accounting SIE file based application
+title: C++ Habilis
+description: The able cpp. The 'tool using' C++. A basis for a CLI tool that composes existing tools into tooling for C++ development.
 url: https://kjelloh.github.io
-baseurl: /cratchit
-repository: kjelloh/cratchit
+baseurl: /cpp_habilis
+repository: kjelloh/cpp_habilis
 
 defaults:
   - scope:
-      path: "issues"
-    values:
-      render_with_liquid: false
-  - scope:
-      path: "docs/thinking"
+      path: "chime"
     values:
       render_with_liquid: false
