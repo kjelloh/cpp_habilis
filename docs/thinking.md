@@ -4,6 +4,25 @@
 
 I find that wrinting down my thinking helps me staying focused, constratined and finding ways formward to solutions and answers.
 
+## 20260822
+
+I had an error in the built Github Pages. The generated site had links that went to my Cratchit-repo/site?
+
+* It turned out the the _config.yml file I had copied contained urls!
+* So I tried to make a super clean _config.yml with no repo-specific meta-data at all.
+* So far it seems to work just fine?
+
+  * The generated site still looks fine?
+  * And now the links are all as I expect within this repo.
+
+* Although I am still a little unsure if the site I see is the latest built one?
+
+  * I did refresh in macOS Safari and the previous errors disappeared.
+  * But that was for a site built form a fixed _config.yml (still URLs but correct ones)
+
+* I triggered a rebuild of Github pages but still seem to take forever?
+* Maybe Githup prioritise build triggered by commits to the repo?
+
 ## 20260821
 
 So I actually used coPilot to inject content to the scaffolding I created ,manually.
