@@ -4,6 +4,38 @@
 
 I find that wrinting down my thinking helps me staying focused, constratined and finding ways formward to solutions and answers.
 
+## 20260906
+
+I think I know of tools I want habilis to provide
+
+* Clone git repos containing C++ code to be consumed by a C++ project
+  * The mechanism can define where to clone to relative a consumer C++ project
+  * The mechanism can provide a way to pick header files and place them in a folder for consumer to include
+  * The tool maybe can create some file with resulting include folders?
+* Turn (flatten)  a directory structure with C++ source code into a CAS
+  * The result shall be a defined CAS based on a set of files that defines the CAS content
+  * I imagine a simple source-file-to-hash function to key every file with a hash + path-to-file
+* A CAS C++ archive based C++ pre-processor
+  * The pre-processor shall apply a map between include C++ files and CAS hash names
+  * And act as a 'harness' that ensures the mapped files are the ones used.
+  * I imagine the pre-processor relaces each existing include with the mapped include
+
+    * E.g., in client code:
+```cpp
+#include <vector>
+```
+
+    * The CAS Pre-processor replace this with:
+
+```cpp
+#include "129845af4ebd.hpp"
+```
+
+  * And then it calls the ordinary pre-procssor with the appropriate -I directive
+  * In this way we have introduced a CAS based more strict control of exactly what headers are used?
+  * We can now either auto-generate the mapping?
+  * Or provide a manual mechanism to apply mapping in a very striuct and controlled way?
+
 ## 20260822
 
 I had an error in the built Github Pages. The generated site had links that went to my Cratchit-repo/site?
@@ -22,6 +54,13 @@ I had an error in the built Github Pages. The generated site had links that went
 
 * I triggered a rebuild of Github pages but still seem to take forever?
 * Maybe Githup prioritise build triggered by commits to the repo?
+
+YES! Github triggers Github Pages just fine on commits to the repo!
+
+* And the generated pages uses any 'heading one' in the source markdown as the heading.
+* For pages with no heading (egeg my index.md) it uses main page heading?
+  * Or maybe parent page heading?
+  * This is still unclear to me?
 
 ## 20260821
 
